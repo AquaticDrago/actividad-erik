@@ -25,7 +25,7 @@
       // Canal: Conexion
     var channel = pusher.subscribe('conexion');
       // Evento: Accion de la aplicacion
-    channel.bind('evento', function(data) {
+    channel.bind('evento', function(mensaje) {
       alert("Ya ocurrio el evento de la aplicación")
     });
   </script>
